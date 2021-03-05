@@ -2,14 +2,8 @@
     font-family: "Big Shoulders Stencil Text", cursive;
     box-sizing: border-box;
 }
-<<<<<<< HEAD
 body {
     font-family: 'Open Sans', sans-serif;
-=======
-body{
-    font-family: 'Roboto', sans-serif;
-    background-image: url(images/patt.png);
->>>>>>> 58db19dc6709538130017b2eb7794725e737f640
 }
 .container {
     width: 100%;
@@ -904,7 +898,6 @@ font-weight: bold;
     height: 45px;
     background-color: transparent;
     color: white;
-<<<<<<< HEAD
     appearance: none;
     border: white 1px solid;
     border-radius: 5px;
@@ -1019,6 +1012,3 @@ font-weight: bold;
 
 }
     
-=======
-}
->>>>>>> 58db19dc6709538130017b2eb7794725e737f640
