@@ -28,4 +28,13 @@ modalEl.addEventListener('click', function(e) {
     }
 })
 
-document.addEventListener('scroll', documentOnScroll)
+document.addEventListener('scroll', documentOnScroll);
+
+let activeMenu = document.querySelector('.nav-mobile-menu');
+
+let mobileMenu = document.querySelector('.hidden-menu');
+
+activeMenu.addEventListener("click", function(){
+    mobileMenu.classList.toggle("active-menu");
+    activeMenu.classList.toggle("active-menu")
+})
